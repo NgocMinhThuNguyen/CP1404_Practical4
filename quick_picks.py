@@ -17,5 +17,3 @@ for i in range(number_of_lines):
     for number in numbers:
         print(f"{number:>2}", end=" ")
     print()
-
-
