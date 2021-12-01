@@ -32,7 +32,7 @@ def print_subjects(subjects):
         subject_code = subject[0]
         lecturer = subject[1]
         number_of_students = str(subject[2])
-        print(f"{subject_code} is taught by {lecturer:.10} and has {number_of_students:.3} students")
+        print(f"{subject_code} is taught by {lecturer:.10} and has {number_of_students:>3} students")
 
 
 main()
